@@ -19,7 +19,7 @@ For details on how to create a service principal and/or acquire your Azure accou
 
 Before your code can connect with FaunaDB, you need to provision an access key and put the key's secret into the `serverless.yml` configuration file under the `provider.environment.FAUNADB_SECRET` key.
 
-To get an access key, navigate to the [key creation form on the FaunaDB cloud dashboard](https://dashboard.fauna.com/db/keys) and create a key for the database you want to connect to. In most cases, you should select the "server" role.
+To get an access key, [sign up for free for FaunaDB](https://fauna.com/sign-up), navigate to the [key creation form on the FaunaDB cloud dashboard](https://dashboard.fauna.com/db/keys) and create a key for the database you want to connect to. In most cases, you should select the "server" role.
 
 The example query in `handler.js` does not depend on any schema or data. [Learn more about FaunaDB's query language](https://fauna.com/tutorials/crud) or see our [CRUD example for Lambda.](https://github.com/fauna/serverless-crud)
 
